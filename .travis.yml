@@ -7,3 +7,9 @@ branches:
 script:
   - "yarn run lint"
   - "yarn test"
+install:
+  - npm install -g firebase-tools
+  - npm install && npm run build
+
+after_success:
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then firebase deploy --token $FIREBASE_TOKEN; fi'
