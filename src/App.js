@@ -1,8 +1,10 @@
 import React from 'react'
+import ListCards from './components/ListCards'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App deep-orange lighten-5">
       <div className="row">
         <div className="col s12 pink">
           <div className="row header">
@@ -22,6 +24,8 @@ const App = () => {
           </div>
         </div>
       </div>
+      <ListCards />
+      <Footer />
     </div>
   )
 }
