@@ -8,15 +8,15 @@ const App = () => {
       <div className="row">
         <div className="col s12 pink">
           <div className="row header">
-            <div className="col s2 offset-s1 white box">
+            <div className="col l2 offset-l1 s12 m6 white box">
               <div className="container">
                 <h1>HappY</h1>
               </div>
             </div>
-            <div className="col s2 offset-s2 white box">
+            <div className="col l2 offset-l2 s12 m6 white box">
               <h1>BiRthDaY</h1>
             </div>
-            <div className="col s2 offset-s2 white box">
+            <div className="col l2 offset-l2 s12 m6 white box">
               <div className="container">
                 <h1>Kars</h1>
               </div>
